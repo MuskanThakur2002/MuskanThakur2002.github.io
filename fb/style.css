@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    justify-content: center;
+    display: flex;
+    padding-bottom: 10%;
+    background-color:  #edf0f5;
+}
+.space{
+    margin-top: 12%;
+}
+#fb{
+    color:  #1877f2;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+
+}
+.lines{
+    font-size: 28px;
+    font-family: Arial;
+    line-height: 0px;
+    color: #1c1e21;
+    font-weight: 300;
+    margin-top: 25px;
+    padding-bottom: 10px;
+    padding-right: 100px;
+
+}
+.box{
+    border-radius: 10px;
+    margin-top: 30%;
+    box-shadow: 5px 5px 5px 5px rgba(214, 208, 208, 0.473);
+    width: 400px;
+    height: 360px;
+    border: none;
+    text-align: center;
+    background-color: white;
+}
+
+input, button{
+    margin-top: 20px;
+    font-size: large;
+    height: 45px;
+    width: 85%;
+    border-radius: 10px;
+    padding-left: 20px;
+    border-color: #dddfe2;
+ 
+
+}
+#log{
+    background-color: #1877f2;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 91%;
+    border: none;
+    font-size: large;
+
+}
+hr{
+    color: rgb(202, 199, 199);
+}
+#forget{
+    color: #1877f2;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+
+}
+#create{
+    background-color: #42b72a;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    width: 60%;
+    margin-bottom: 50px;
+    border: none;
+    font-size: large;
+}
+#page{
+    color: #1c1e21;
+    font-weight: 300;
+    margin-top: 15px;
+    padding-left: 50px;
+}
+.last{
+    padding-left: 20%;
+    word-spacing: 15px;
+    font-size: 15px;
+    font-family : Lucida Sans;
+    color: rgba(6, 6, 128, 0.747);
+}
+#last1{
+    width: 1090px;
+}
