@@ -2,18 +2,18 @@
     margin: 0;
     padding: 0;  
 }
-body{
-    background-color: black;
+.bg{
     justify-content: center;
     display: flex;
-
+    padding-bottom: 5%;
+    background-color: #edf0f5;
 }
 .box{
     border-radius: 10px;
-    margin-top: 12%;
+    margin-top: 10%;
     box-shadow: 5px 5px 5px 5px rgba(214, 208, 208, 0.473);
     width: 450px;
-    height: 480px;
+    height: 510px;
     border: none;
     text-align: center;
     background-color: white;
@@ -21,6 +21,7 @@ body{
 .sign{
     text-align: left;
     padding-left: 12px;
+    margin-top: 15px;
 }
 p{
     color: rgb(87, 86, 86);
@@ -33,9 +34,11 @@ p{
     padding-left: 10px;
     border: 1px solid grey;
     width: 42%;
-    /* margin-left:16px; */
     border-color: rgb(196, 192, 192);
     background-color: #edf0f5;
+}
+.int1{
+    margin-right: 8px;
 }
 .full{
     margin-top: 12px;
@@ -45,7 +48,59 @@ p{
     padding-left: 10px;
     border: 1px solid grey;
     width: 90%;
-    /* margin-left:16px; */
     border-color: rgb(196, 192, 192);
     background-color: #edf0f5;
+}
+.sign h1{
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    color: #1c1e21;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 2px;
+}
+.sizes{
+    margin: 2px;
+    margin-top: 5px;
+    font-size: medium;
+    width: 30%;
+    padding: 8px 8px 8px 8px;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid grey;
+}
+.date{
+    margin-top: 15px;
+    margin-left: 15px;
+    text-align: left;
+    font-size: 15px;
+}
+.circle{
+    margin: 15px 0px 0px 60px;
+}
+.text{
+    margin: 20px 20px 10px 20px;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    text-align: left;
+    font-size: 11px;
+}
+#create{
+    background-color: #42b72a;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    width: 40%;
+    border-radius: 8px;
+    border: none;
+    font-size: 24px;
+}
+hr{
+    color: rgb(87, 86, 86);
+}
+.right{
+    width: 90%;
+    margin-top: 30px;
+    direction:"left"; 
+    height:"500px";
+    font-size: 60px;
+    color: blue;
 }
