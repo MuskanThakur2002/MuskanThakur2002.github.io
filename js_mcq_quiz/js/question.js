@@ -38,5 +38,5 @@ const quiz = [
     q: "Which one of the following is the correct way for calling the JavaScript code?",
     options: ["Preprocessor", "Triggering Event", "RMI", "Function/Method"],
     answer: 3,
-  }
+  },
 ];

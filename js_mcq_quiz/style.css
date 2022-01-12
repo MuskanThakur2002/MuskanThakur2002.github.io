@@ -8,12 +8,14 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     outline: none;
 }
+
 .custom-box{
     max-width: 700px;
     background-color: #ffffff;
@@ -22,6 +24,7 @@ body{
     border-radius: 10px;
     animation: fadeInRight 1s ease;
 }
+
 @keyframes fadeInRight{
     0%{
         transform: translateX(40px);
@@ -40,10 +43,10 @@ body{
     display: table;
 }
 
-
 .custom-box.hide{
     display: none;
 }
+
 .home-box h3{
     font-size: 18px;
     color: #000000;
@@ -78,6 +81,7 @@ body{
     cursor: pointer;
     display: inline-block;
 }
+
 .quiz-box .question-number,
 .quiz-box .question-text,
 .quiz-box .option-container,
@@ -121,6 +125,7 @@ body{
     position: relative;
     overflow: hidden;
 }
+
 @keyframes fadeIn{
     0%{
         opacity: 0;
@@ -129,6 +134,7 @@ body{
         opacity: 1;
     }
 }
+
 .quiz-box .option-container .option.already-answered{
     pointer-events: none;
 }
@@ -144,6 +150,7 @@ body{
     z-index: -1;
     animation: slideInLeft 0.5s ease forwards;
 }
+
 @keyframes slideInLeft{
     0%{
         transform: translateX(-100%);
@@ -152,6 +159,7 @@ body{
         transform: translateX(0%);
     }
 }
+
 .quiz-box .option-container .option.wrong::before{
     content: '';
     position: absolute;
@@ -164,14 +172,13 @@ body{
     animation: slideInLeft 0.5s ease forwards;
 }
 
-
 .quiz-box .option-container .option.correct{
     color: #ffffff;
 }
+
 .quiz-box .option-container .option.worng{
     color: #ffffff;
 }
-
 
 .quiz-box .btn{
     margin: 15px 0;
@@ -190,6 +197,7 @@ body{
     margin-right: 3px;
     margin-top: 10px;
 }
+
 .quiz-box .answers-indicator div.correct{
     background-color: green;
     background-image: url(images/right.jpg);
@@ -197,6 +205,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
 }
+
 .quiz-box .answers-indicator div.wrong{
     background-color: red;
     background-image: url(images/wrong.png);
@@ -208,6 +217,7 @@ body{
 .result-box{
     text-align: center;
 }
+
 .result-box.hide{
     display: none;
 }
@@ -217,6 +227,7 @@ body{
     line-height: 42px;
     color: #009688;
 }
+
 .result-box table{
     width: 100%;
     border-collapse: collapse;
@@ -232,11 +243,10 @@ body{
     text-align: left;
     font-size: 18px;
 }
+
 .result-box .btn{
     margin-right: 20px;
 }
-
-
 
 @media(max-width:767px){
     .result-box .btn{
